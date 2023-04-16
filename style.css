@@ -1,0 +1,188 @@
+.btn {
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.btn-outline-primary {
+  color: White;
+  border-color: #9F70E0;
+}
+.btn-outline-primary:hover {
+  background-color: #9F70E0;
+  border-color: #9F70E0;
+}
+
+.btn-primary {
+  background-color: #9F70E0;
+  border-color: #9F70E0;
+}
+.btn-primary:hover {
+  border-color: #9F70E0;
+  background-color: #343157;
+}
+
+.text-primary {
+  color: #9F70E0 !important;
+}
+
+.bg-primary {
+  background-color: #9F70E0 !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #262D40;
+}
+.navbar .container-fluid {
+  padding: 0 176px;
+}
+.navbar .container-fluid .nav-item {
+  margin: 0 42px;
+}
+.navbar .container-fluid .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar .container-fluid .nav-item .nav-link.active {
+  color: #9F70E0 !important;
+}
+
+header {
+  height: calc(100vh - 89px);
+  background-color: #262D40;
+  padding: 0 176px;
+}
+header .header-title-first {
+  font-size: 100px;
+  color: #343157;
+  font-weight: 900;
+}
+header .header-title-2nd {
+  font-size: 48px;
+  font-weight: bold;
+}
+header .button-row button {
+  margin-right: 53px;
+}
+
+.infor-me {
+  background-color: #262D40;
+  height: calc(100vh - 89px);
+}
+.infor-me .block-infor-wrap {
+  width: 865px;
+  height: 360px;
+}
+.infor-me .block-infor-wrap .block-infor {
+  position: relative;
+  z-index: 2;
+  border-radius: 30px;
+}
+.infor-me .block-infor-wrap .block-infor .description {
+  margin-left: 92px;
+}
+.infor-me .block-infor-wrap .block-infor .description .title-job {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+.infor-me .block-infor-wrap .block-infor .description .wrap-title-infor {
+  background: url("./img/Order.png") no-repeat;
+  padding-top: 30px;
+  margin-top: 25px;
+}
+.infor-me .block-infor-wrap .block-infor .description .about-me-first {
+  font-size: 48px;
+  font-weight: 700;
+}
+.infor-me .block-infor-wrap .block-infor .description p {
+  font-size: 16px;
+  font-weight: 200;
+}
+.infor-me .block-infor-wrap .dot-left {
+  width: 280px;
+  bottom: -75px;
+  left: -93px;
+  z-index: 1;
+}
+.infor-me .block-infor-wrap .dot-right {
+  width: 80.13px;
+  height: 85.13px;
+  top: -30px;
+  right: -22px;
+  z-index: 1;
+}
+.infor-me .block-infor-wrap .dot-item {
+  width: 7.13px;
+  height: 7.13px;
+  border-radius: 100%;
+  background-color: white;
+  margin-right: 7.8px;
+  margin-bottom: 14.8px;
+}
+.infor-me .circle-blur.violet {
+  position: absolute;
+  bottom: -194px;
+  right: 250px;
+  border-color: #9F70E0;
+}
+
+.circle-blur {
+  width: 334px;
+  height: 315px;
+  border: 44px solid black;
+  border-radius: 100%;
+}
+
+main {
+  background-color: #F4EEFB;
+}
+
+.portfolio {
+  min-height: 100vh;
+  padding-top: 279px;
+  overflow: hidden;
+}
+.portfolio .circle-blur.one {
+  top: -127px;
+  right: 250px;
+  border-color: #262D40;
+}
+.portfolio .style-tile-portfolio {
+  font-size: 120px;
+  color: rgba(131, 71, 215, 0.2);
+  top: -210px;
+  left: -120px;
+  font-weight: 900;
+}
+.portfolio .container {
+  width: calc(100vw - 584px);
+}
+.portfolio .circle-port {
+  width: 54px;
+  height: 54px;
+  background-color: #F4EEFB;
+  border: 10px solid #9F70E0;
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+}
+.portfolio .title-portfolio {
+  color: #9F70E0;
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 94px;
+}
+.portfolio .list-button-port .btn-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
